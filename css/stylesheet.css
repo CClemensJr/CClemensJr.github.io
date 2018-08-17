@@ -1,0 +1,13 @@
+.container {
+    display: inline-block;
+}
+
+aside {
+    background-color: aqua;
+    float: left;
+}
+
+main {
+    background-color: orangered;
+    float: right;
+}
