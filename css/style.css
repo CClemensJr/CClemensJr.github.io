@@ -1,0 +1,9 @@
+aside {
+    background-color: blue;
+    display: inline-block;
+}
+
+main {
+    background-color: orange;
+    display: inline-block;
+}
