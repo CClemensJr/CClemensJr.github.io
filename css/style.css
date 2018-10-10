@@ -1,14 +1,18 @@
-aside {
-    background-color: blue;
-    float: left;
-    height: 100%;
-    width: 30%;
-    /* display: inline-block; */
-}
+/* Give aside and main constrasting background colors */
+/* Make the aside take up 30% of the page */
+/* Make main take up 70% of the page */
+/* Style the logo using css */
+/* Position the image with 1/4 of it on aside */
+/* Size the image so that it is about half the height of the page */
+/* Center the image vertically in the page */
+/* Style the heading */
+/* Style the subheading */
+/* Style the motto */
+/* Style the buttons */
+/* Add animations to the buttons when hovered over and selected */
 
-main {
-    background-color: orange;
-    float: right;
-    width: 70%;
-    /* display: inline-block; */
-}
+
+
+
+
+
