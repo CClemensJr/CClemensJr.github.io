@@ -1,6 +1,6 @@
 /* Give aside and main constrasting background colors */
-/* Make the aside take up 30% of the page */
-/* Make main take up 70% of the page */
+/* Make the aside take up 30% of the page width */
+/* Make main take up 70% of the page width */
 /* Style the logo using css */
 /* Position the image with 1/4 of it on aside */
 /* Size the image so that it is about half the height of the page */
@@ -11,6 +11,31 @@
 /* Style the buttons */
 /* Add animations to the buttons when hovered over and selected */
 
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+/* ASIDE STYLES */
+
+aside {
+    background: #083F66;
+}
+
+img {
+    background: #CB9300;
+}
+
+
+/* MAIN STYLES */
+
+main {
+    background: #A07403;
+}
 
 
 
