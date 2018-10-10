@@ -18,12 +18,25 @@
 
 body {
     color: white;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+a:first-of-type {
+    color: #CB9300;
+    text-decoration: none;
 }
 
 /* ASIDE STYLES */
 
 aside {
     background: #083F66;
+    /* height: 100%; */
+    left: 0%;
+    position: absolute;
+    top: 0%;
+    width: 30%;
 }
 
 img {
@@ -35,6 +48,11 @@ img {
 
 main {
     background: #A07403;
+    /* height: 100%; */
+    left: 30%;
+    position: absolute;
+    top: 0%;
+    width: 70%;
 }
 
 
