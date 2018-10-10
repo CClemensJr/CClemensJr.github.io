@@ -1,9 +1,14 @@
 aside {
     background-color: blue;
-    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 30%;
+    /* display: inline-block; */
 }
 
 main {
     background-color: orange;
-    display: inline-block;
+    float: right;
+    width: 70%;
+    /* display: inline-block; */
 }
