@@ -1,6 +1,6 @@
-/* Give aside and main constrasting background colors */
-/* Make the aside take up 30% of the page width */
-/* Make main take up 70% of the page width */
+/* DONE - Give aside and main constrasting background colors */
+/* DONE - Make the aside take up 30% of the page width */
+/* DONE - Make main take up 70% of the page width */
 /* Style the logo using css */
 /* Position the image with 1/4 of it on aside */
 /* Size the image so that it is about half the height of the page */
@@ -10,6 +10,8 @@
 /* Style the motto */
 /* Style the buttons */
 /* Add animations to the buttons when hovered over and selected */
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Cairo|Exo|Fahkwang|Fredoka+One|K2D|Notable|Questrial');
 
 /* GLOBAL STYLES */
 * {
@@ -32,11 +34,42 @@ a:first-of-type {
 
 aside {
     background: #083F66;
-    /* height: 100%; */
+    height: auto;
     left: 0%;
+    padding: 2.5%;
     position: absolute;
     top: 0%;
     width: 30%;
+}
+
+nav {
+    height: 92vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+ nav h1 {
+    background: yellow;
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 7vw;
+    margin-top: 10%;
+    /* left: 0%; */
+    position: absolute;
+    /* top: 0%; */
+    transform: rotate(45deg);
+}
+
+nav span:first-of-type {
+    color: red;
+    display: inline-block;
+    transform: rotateY(180deg);
+}
+
+nav span:last-of-type {
+    color: silver;
 }
 
 img {
@@ -48,11 +81,18 @@ img {
 
 main {
     background: #A07403;
-    /* height: 100%; */
+    height: auto;
     left: 30%;
+    padding: 2.5%;
     position: absolute;
     top: 0%;
     width: 70%;
+}
+
+div:first-of-type {
+    height: 92vh;
+    overflow: hidden;
+    width: 100%;
 }
 
 
